@@ -23,15 +23,14 @@ class HomePage extends StatelessWidget {
               ),
               SizedBox(height: 16),
               Text(
-                'Адаптивная образовательная платформа для школьников Казахстана. '
-                'Выбери свой класс и начни обучение!',
+                'Адаптивная образовательная платформа для школьников Казахстана. ',
                 textAlign: TextAlign.center,
                 style: TextStyle(fontSize: 18),
               ),
               SizedBox(height: 32),
               ElevatedButton(
                 onPressed: () {
-                  Navigator.pushNamed(context, '/profile');
+                  Navigator.pushNamed(context, '/authPage');
                 },
                 child: Text('Начать обучение'),
               ),
